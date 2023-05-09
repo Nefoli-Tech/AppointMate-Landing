@@ -106,7 +106,7 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
+      href: 'https://github.com/Nefoli-Tech/AppointMate-Frontend/releases/download/v1.0/appointmate.apk',
       targetBlank: true,
       btnType: 'primary',
     },
@@ -136,19 +136,19 @@ export const heroData: HeroProps = {
     </>
   ),
   callToAction: {
-    text: 'View Source Code',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconBrandGithub,
+    text: 'Download',
+    href: 'https://play.google.com/store/apps/details?id=com.herald.app',
+    icon: IconDownload,
     targetBlank: true,
     btnType: 'primary',
   },
   callToAction2: {
-    text: 'Learn more',
+    text: 'Learn More',
     href: '/',
   },
   image: {
     src: heroImg,
-    alt: 'Hero TailNext',
+    alt: 'AppointMate',
   },
 };
 
